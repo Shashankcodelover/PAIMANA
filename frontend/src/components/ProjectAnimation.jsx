@@ -11,8 +11,8 @@ export default function ProjectAnimation({ sector }) {
     let animationFrameId;
     let time = 0;
 
-    canvas.width = canvas.offsetWidth;
-    canvas.height = canvas.offsetHeight;
+    canvas.width = canvas.offsetWidth || 400;
+    canvas.height = canvas.offsetHeight || 300;
 
     const animateWaterResources = () => {
       ctx.clearRect(0, 0, canvas.width, canvas.height);

@@ -1,4 +1,4 @@
-﻿import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import ProjectAnimation from "./ProjectAnimation.jsx";
 import { predict } from "../api.js";
 
@@ -99,7 +99,7 @@ export default function DetailPanel({ project, onClose }) {
 
         <h3 className="detail-section-title">⚠️ Risk Factors</h3>
         <ul className="risk-factor-list">
-          {project.top_risk_factors.map((factor, i) => (
+          {(project.top_risk_factors || []).map((factor, i) => (
             <li key={i}>{factor}</li>
           ))}
         </ul>
@@ -127,10 +127,10 @@ export default function DetailPanel({ project, onClose }) {
                 className="whatif-result-score tabular"
                 style={{ opacity: loading ? 0.6 : 1 }}
               >
-                {activeScore.toFixed(1)}
+                {activeScore != null ? Number(activeScore).toFixed(1) : "—"}
               </div>
               <div style={{ fontSize: 12, color: "var(--mist-dim)", marginTop: 4 }}>
-                {Math.round(activeDays)} days overrun
+                {Math.round(activeDays || 0)} days overrun
               </div>
             </div>
             <span className={`whatif-result-category risk-badge ${riskClass(activeCategory)}`}>
