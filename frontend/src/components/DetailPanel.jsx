@@ -1,18 +1,9 @@
-import { useEffect, useRef, useState } from "react";
+﻿import { useEffect, useRef, useState } from "react";
+import ProjectAnimation from "./ProjectAnimation.jsx";
 import { predict } from "../api.js";
 
 function riskClass(category) {
   return (category || "").toLowerCase();
-}
-
-function riskColorVar(category) {
-  const map = {
-    Low: "var(--risk-low)",
-    Medium: "var(--risk-medium)",
-    High: "var(--risk-high)",
-    Critical: "var(--risk-critical)",
-  };
-  return map[category] || "var(--mist)";
 }
 
 function formatCr(value) {
@@ -54,15 +45,13 @@ export default function DetailPanel({ project, onClose }) {
         });
         setLiveResult(result);
       } catch (e) {
-        // fail quietly in the UI, the base project data is still shown
         console.error(e);
       } finally {
         setLoading(false);
       }
     }, 300);
     return () => clearTimeout(debounceRef.current);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [delayMonths, project?.project_id]);
+  }, [delayMonths, project]);
 
   if (!project) return null;
 
@@ -74,10 +63,15 @@ export default function DetailPanel({ project, onClose }) {
     <>
       <div className="scrim" onClick={onClose} />
       <div className="detail-panel" ref={panelRef}>
+        <div style={{ position: 'absolute', top: 0, right: 0, width: '100%', height: '200px', opacity: 0.15, zIndex: 0, overflow: 'hidden' }}>
+          <ProjectAnimation sector={project.sector} />
+        </div>
+        
         <button className="detail-panel-close" onClick={onClose}>
-          Close
+          ✕ Close
         </button>
-        <h2 className="detail-title">{project.project_name}</h2>
+        
+        <h2 className="detail-title" style={{ position: 'relative', zIndex: 1 }}>{project.project_name}</h2>
         <div className="detail-meta">
           {project.sector} · {project.ministry}
         </div>
@@ -90,7 +84,7 @@ export default function DetailPanel({ project, onClose }) {
           <div>
             <div className="detail-stat-label">Revised cost</div>
             <div className="detail-stat-value tabular">
-              {project.revised_cost_missing ? "Not yet reported" : formatCr(project.revised_cost_cr)}
+              {project.revised_cost_missing ? "Not reported" : formatCr(project.revised_cost_cr)}
             </div>
           </div>
           <div>
@@ -103,7 +97,7 @@ export default function DetailPanel({ project, onClose }) {
           </div>
         </div>
 
-        <h3 className="detail-section-title">Why this is risky</h3>
+        <h3 className="detail-section-title">⚠️ Risk Factors</h3>
         <ul className="risk-factor-list">
           {project.top_risk_factors.map((factor, i) => (
             <li key={i}>{factor}</li>
@@ -111,7 +105,7 @@ export default function DetailPanel({ project, onClose }) {
         </ul>
 
         <div className="whatif-block">
-          <h3 className="detail-section-title">What if this slips further?</h3>
+          <h3 className="detail-section-title">🔮 What-If Simulator</h3>
           <div className="whatif-slider-row">
             <input
               type="range"
@@ -131,18 +125,15 @@ export default function DetailPanel({ project, onClose }) {
               <div className="detail-stat-label">Risk score</div>
               <div
                 className="whatif-result-score tabular"
-                style={{ color: riskColorVar(activeCategory), opacity: loading ? 0.6 : 1 }}
+                style={{ opacity: loading ? 0.6 : 1 }}
               >
                 {activeScore.toFixed(1)}
               </div>
               <div style={{ fontSize: 12, color: "var(--mist-dim)", marginTop: 4 }}>
-                {Math.round(activeDays)} days predicted overrun
+                {Math.round(activeDays)} days overrun
               </div>
             </div>
-            <span
-              className={`whatif-result-category risk-badge ${riskClass(activeCategory)}`}
-              style={{ color: riskColorVar(activeCategory) }}
-            >
+            <span className={`whatif-result-category risk-badge ${riskClass(activeCategory)}`}>
               {activeCategory}
             </span>
           </div>
