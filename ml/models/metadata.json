@@ -1,0 +1,199 @@
+{
+  "xgb_available": false,
+  "model_type": "RandomForest (xgboost unavailable, used fallback)",
+  "feature_cols": [
+    "original_cost_cr",
+    "sector",
+    "ministry"
+  ],
+  "categorical_cols": [
+    "sector",
+    "ministry"
+  ],
+  "risk_thresholds": {
+    "Low": "<10%",
+    "Medium": "10-25%",
+    "High": "25-50%",
+    "Critical": ">50%"
+  },
+  "regressor_rmse": 56.287794012114496,
+  "regressor_mae": 17.531895244827755,
+  "baseline_rmse": 20.955741824861885,
+  "baseline_mae": 11.577163163240334,
+  "classifier_accuracy": 0.7058823529411765,
+  "classifier_f1": 0.6795725697686482,
+  "feature_importances": [
+    [
+      "Original budget size",
+      0.5622141248330531
+    ],
+    [
+      "Roads & Highways sector",
+      0.08948904415921846
+    ],
+    [
+      "Ministry of Communications",
+      0.08398002576968155
+    ],
+    [
+      "Ministry of Road Transport & Highways",
+      0.07145178863015479
+    ],
+    [
+      "Telecommunication sector",
+      0.06068247291187331
+    ],
+    [
+      "Water Resources sector",
+      0.05145880980791431
+    ],
+    [
+      "Ministry of Jal Shakti",
+      0.04945710110393315
+    ],
+    [
+      "Energy Storage sector",
+      0.006833908945594132
+    ],
+    [
+      "Ministry of Railways",
+      0.006148326108077324
+    ],
+    [
+      "Railways sector",
+      0.006056946789788185
+    ],
+    [
+      "Ministry of Mines",
+      0.0023774601006654465
+    ],
+    [
+      "Metals & Mining sector",
+      0.0022714335903228308
+    ],
+    [
+      "Ministry of Power",
+      0.0018153250697549453
+    ],
+    [
+      "Ministry of Housing & Urban Affairs",
+      0.0007658284460308564
+    ],
+    [
+      "Ministry of Civil Aviation",
+      0.0007505708436207518
+    ],
+    [
+      "Civil Aviation sector",
+      0.0005533545117516894
+    ],
+    [
+      "Ministry of Education",
+      0.0005397063660243142
+    ],
+    [
+      "Ministry of Ports, Shipping and Waterways",
+      0.00046448033924092064
+    ],
+    [
+      "Renewable Energy sector",
+      0.00038365995022357946
+    ],
+    [
+      "Electricity Generation sector",
+      0.00037146716871846975
+    ],
+    [
+      "Education sector",
+      0.000358061273478589
+    ],
+    [
+      "Ports, Shipping and Waterways sector",
+      0.0003447367830340153
+    ],
+    [
+      "Urban Public Transport sector",
+      0.00031042060693182283
+    ],
+    [
+      "Ministry of New and Renewable Energy",
+      0.00019522549268078147
+    ],
+    [
+      "Ministry of Chemicals & Fertilizers",
+      0.00012722497431573104
+    ],
+    [
+      "Ministry of Agriculture & Farmers Welfare",
+      0.00010009660879414316
+    ],
+    [
+      "Atomic Energy sector",
+      8.744776318874295e-05
+    ],
+    [
+      "Housing & Urban Affairs sector",
+      7.804783794443939e-05
+    ],
+    [
+      "Department of Atomic Energy",
+      7.678140371787159e-05
+    ],
+    [
+      "Fertilizers sector",
+      6.505081975947697e-05
+    ],
+    [
+      "Ministry of Coal",
+      4.9219387566000286e-05
+    ],
+    [
+      "Coal sector",
+      4.7258423800335185e-05
+    ],
+    [
+      "Healthcare sector",
+      2.9235951855446466e-05
+    ],
+    [
+      "Ministry of Petroleum & Natural Gas",
+      2.6177285566746523e-05
+    ],
+    [
+      "Petroleum & Natural Gas sector",
+      2.241311665015426e-05
+    ],
+    [
+      "Steel sector",
+      1.4746761557446724e-05
+    ],
+    [
+      "Ministry of Tourism",
+      2.020063516070672e-06
+    ],
+    [
+      "Ministry of Rural Development",
+      0.0
+    ],
+    [
+      "Ministry of Steel",
+      0.0
+    ],
+    [
+      "Rural Development sector",
+      0.0
+    ],
+    [
+      "Tourism sector",
+      0.0
+    ],
+    [
+      "Ministry of Health & Family Welfare",
+      0.0
+    ],
+    [
+      "Agriculture & Farmers Welfare sector",
+      0.0
+    ]
+  ]
+}

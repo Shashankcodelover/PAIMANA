@@ -1,0 +1,255 @@
+project_id,project_name,ministry,sector,original_cost_cr,revised_cost_cr,expenditure_cr,physical_progress_pct,status,cost_overrun_pct,revised_cost_missing,possible_outlier,date_is_synthetic,cost_is_estimated,primary_delay_cause
+900000,Water Resources Project 900000,Ministry of Jal Shakti,Water Resources,1183.98,1629.92,1464.02,90.0,Delayed,37.66,False,False,True,True,geological surprises
+900001,Water Resources Project 900001,Ministry of Jal Shakti,Water Resources,1985.95,4481.2,4463.3,100.0,Completed,125.65,False,False,True,True,
+900002,Water Resources Project 900002,Ministry of Jal Shakti,Water Resources,762.05,1181.51,1217.73,99.6,Completed,55.04,False,False,True,True,
+900003,Water Resources Project 900003,Ministry of Jal Shakti,Water Resources,6184.97,10411.13,1659.78,22.5,Critical,68.33,False,False,True,True,scope changes
+900004,Water Resources Project 900004,Ministry of Jal Shakti,Water Resources,1616.35,3620.2,1727.7,46.0,Critical,123.97,False,False,True,True,financing tie-up delays
+900006,Telecommunication Project 900006,Ministry of Communications,Telecommunication,3668.74,3668.74,3037.5,87.9,On Track,0.0,True,False,True,True,
+900007,Telecommunication Project 900007,Ministry of Communications,Telecommunication,2341.95,5755.98,4717.53,76.3,Critical,145.78,False,False,True,True,law-and-order issues
+900008,Telecommunication Project 900008,Ministry of Communications,Telecommunication,6126.51,10087.67,10176.96,99.7,Completed,64.66,False,False,True,True,
+900010,Energy Storage Project 900010,Ministry of Power,Energy Storage,1116.96,1527.11,1357.0,98.4,Delayed,36.72,False,False,True,True,law-and-order issues
+900011,Energy Storage Project 900011,Ministry of Power,Energy Storage,393.26,583.32,302.38,65.3,Delayed,48.33,False,False,True,True,scope changes
+900012,Energy Storage Project 900012,Ministry of Power,Energy Storage,163.13,184.47,140.12,70.1,On Track,13.08,False,False,True,True,
+900014,Electricity Generation Project 900014,Ministry of Power,Electricity Generation,647.4,756.51,623.63,87.2,Delayed,16.85,False,False,True,True,scope changes
+900015,Electricity Generation Project 900015,Ministry of Power,Electricity Generation,1600.6,1816.15,1145.96,61.3,On Track,13.47,False,False,True,True,
+900016,Electricity Generation Project 900016,Ministry of Power,Electricity Generation,5097.42,6510.78,4819.98,85.0,Delayed,27.73,False,False,True,True,geological surprises
+900017,Electricity Generation Project 900017,Ministry of Power,Electricity Generation,2656.74,3099.83,800.79,22.5,Critical,16.68,False,False,True,True,forest/environment clearance delays
+900018,Electricity Generation Project 900018,Ministry of Power,Electricity Generation,220.17,268.16,133.3,51.0,Delayed,21.8,False,False,True,True,tendering/ordering delays
+900020,Railways Project 900020,Ministry of Railways,Railways,472.48,480.68,206.28,52.4,Delayed,1.74,False,False,True,True,financing tie-up delays
+900021,Railways Project 900021,Ministry of Railways,Railways,624.76,923.11,485.0,52.9,Delayed,47.75,False,False,True,True,land acquisition delays
+900022,Railways Project 900022,Ministry of Railways,Railways,665.65,665.65,441.4,55.9,On Track,0.0,True,False,True,True,
+900023,Railways Project 900023,Ministry of Railways,Railways,1461.94,1710.88,1246.96,59.7,Delayed,17.03,False,False,True,True,land acquisition delays
+900024,Railways Project 900024,Ministry of Railways,Railways,1020.97,1198.25,263.31,23.3,Critical,17.36,False,False,True,True,geological surprises
+900025,Railways Project 900025,Ministry of Railways,Railways,1626.03,2260.68,1361.45,67.2,Delayed,39.03,False,False,True,True,geological surprises
+900026,Railways Project 900026,Ministry of Railways,Railways,2736.37,2899.2,821.89,29.6,Delayed,5.95,False,False,True,True,geological surprises
+900027,Railways Project 900027,Ministry of Railways,Railways,641.45,765.19,553.31,57.3,Delayed,19.29,False,False,True,True,forest/environment clearance delays
+900028,Railways Project 900028,Ministry of Railways,Railways,926.52,966.29,718.79,75.7,On Track,4.29,False,False,True,True,
+900029,Railways Project 900029,Ministry of Railways,Railways,461.23,533.15,451.77,95.0,Delayed,15.59,False,False,True,True,contractual disputes
+900030,Railways Project 900030,Ministry of Railways,Railways,447.18,644.95,155.98,26.1,Delayed,44.23,False,False,True,True,contractual disputes
+900031,Railways Project 900031,Ministry of Railways,Railways,1774.66,2084.31,2188.53,99.7,Completed,17.45,False,False,True,True,
+900032,Railways Project 900032,Ministry of Railways,Railways,1380.17,1742.55,1159.0,49.8,Delayed,26.26,False,False,True,True,contractual disputes
+900033,Railways Project 900033,Ministry of Railways,Railways,4944.82,4944.82,5124.58,100.0,Completed,0.0,True,False,True,True,
+900034,Railways Project 900034,Ministry of Railways,Railways,441.73,513.71,363.82,59.0,Delayed,16.29,False,False,True,True,geological surprises
+900035,Railways Project 900035,Ministry of Railways,Railways,969.63,1203.66,594.38,42.5,Delayed,24.14,False,False,True,True,scope changes
+900036,Railways Project 900036,Ministry of Railways,Railways,892.84,1082.64,456.89,38.7,Delayed,21.26,False,False,True,True,contractual disputes
+900037,Railways Project 900037,Ministry of Railways,Railways,1781.43,2351.82,889.26,39.3,Delayed,32.02,False,False,True,True,geological surprises
+900038,Railways Project 900038,Ministry of Railways,Railways,3443.35,4513.73,3649.57,68.8,Delayed,31.09,False,False,True,True,scope changes
+900039,Railways Project 900039,Ministry of Railways,Railways,639.73,702.0,51.63,25.7,Delayed,9.73,False,False,True,True,geological surprises
+900040,Railways Project 900040,Ministry of Railways,Railways,1578.15,1939.1,1886.1,85.5,Delayed,22.87,False,False,True,True,scope changes
+900041,Railways Project 900041,Ministry of Railways,Railways,2570.88,2958.87,1973.75,67.9,Delayed,15.09,False,False,True,True,tendering/ordering delays
+900042,Railways Project 900042,Ministry of Railways,Railways,1046.08,1324.75,229.36,15.7,Critical,26.64,False,False,True,True,tendering/ordering delays
+900043,Railways Project 900043,Ministry of Railways,Railways,1212.4,1674.09,776.38,33.5,Delayed,38.08,False,False,True,True,scope changes
+900044,Railways Project 900044,Ministry of Railways,Railways,794.85,980.09,650.52,62.2,Delayed,23.31,False,False,True,True,law-and-order issues
+900045,Railways Project 900045,Ministry of Railways,Railways,336.5,316.47,327.81,99.3,Completed,-5.95,False,False,True,True,
+900046,Railways Project 900046,Ministry of Railways,Railways,636.43,762.61,641.02,100.0,Completed,19.83,False,False,True,True,
+900047,Railways Project 900047,Ministry of Railways,Railways,373.62,388.81,230.21,48.6,Delayed,4.07,False,False,True,True,geological surprises
+900048,Railways Project 900048,Ministry of Railways,Railways,1127.61,1560.37,1278.48,75.5,Delayed,38.38,False,False,True,True,scope changes
+900049,Railways Project 900049,Ministry of Railways,Railways,345.89,438.43,393.01,98.2,Delayed,26.75,False,False,True,True,contractual disputes
+900050,Railways Project 900050,Ministry of Railways,Railways,665.95,846.94,400.54,38.8,Delayed,27.18,False,False,True,True,financing tie-up delays
+900052,Metals & Mining Project 900052,Ministry of Mines,Metals & Mining,1090.72,1407.69,536.75,29.5,Delayed,29.06,False,False,True,True,tendering/ordering delays
+900053,Metals & Mining Project 900053,Ministry of Mines,Metals & Mining,186.86,239.92,206.94,89.9,Delayed,28.4,False,False,True,True,financing tie-up delays
+900054,Metals & Mining Project 900054,Ministry of Mines,Metals & Mining,2286.95,3169.69,2052.86,67.5,Delayed,38.6,False,False,True,True,delays finalising detailed engineering
+900056,Healthcare Project 900056,Ministry of Health & Family Welfare,Healthcare,390.76,421.28,281.1,67.2,On Track,7.81,False,False,True,True,
+900057,Healthcare Project 900057,Ministry of Health & Family Welfare,Healthcare,128.67,144.11,45.15,28.4,Delayed,12.0,False,False,True,True,land acquisition delays
+900058,Healthcare Project 900058,Ministry of Health & Family Welfare,Healthcare,225.7,265.05,5.3,7.6,Critical,17.43,False,False,True,True,financing tie-up delays
+900059,Healthcare Project 900059,Ministry of Health & Family Welfare,Healthcare,10.41,11.94,6.61,54.5,Delayed,14.72,False,False,True,True,delays finalising detailed engineering
+900060,Healthcare Project 900060,Ministry of Health & Family Welfare,Healthcare,305.63,381.98,115.08,19.4,Critical,24.98,False,False,True,True,land acquisition delays
+900062,Urban Public Transport Project 900062,Ministry of Housing & Urban Affairs,Urban Public Transport,2104.51,2467.13,1591.63,72.0,Delayed,17.23,False,False,True,True,financing tie-up delays
+900063,Urban Public Transport Project 900063,Ministry of Housing & Urban Affairs,Urban Public Transport,3756.14,3511.01,3119.57,95.5,On Track,-6.53,False,False,True,True,
+900064,Urban Public Transport Project 900064,Ministry of Housing & Urban Affairs,Urban Public Transport,3124.24,3266.9,2550.32,75.0,On Track,4.57,False,False,True,True,
+900065,Urban Public Transport Project 900065,Ministry of Housing & Urban Affairs,Urban Public Transport,4125.43,4470.78,2836.63,70.6,On Track,8.37,False,False,True,True,
+900067,Roads & Highways Project 900067,Ministry of Road Transport & Highways,Roads & Highways,328.43,347.07,113.08,28.2,Delayed,5.67,False,False,True,True,contractual disputes
+900068,Roads & Highways Project 900068,Ministry of Road Transport & Highways,Roads & Highways,414.52,414.52,276.89,56.8,On Track,0.0,True,False,True,True,
+900069,Roads & Highways Project 900069,Ministry of Road Transport & Highways,Roads & Highways,278.85,295.32,141.55,57.3,On Track,5.91,False,False,True,True,
+900070,Roads & Highways Project 900070,Ministry of Road Transport & Highways,Roads & Highways,164.71,172.75,3.46,11.5,Critical,4.88,False,False,True,True,financing tie-up delays
+900071,Roads & Highways Project 900071,Ministry of Road Transport & Highways,Roads & Highways,239.05,236.27,219.65,98.1,On Track,-1.16,False,False,True,True,
+900072,Roads & Highways Project 900072,Ministry of Road Transport & Highways,Roads & Highways,569.61,569.61,256.78,41.5,Delayed,0.0,True,False,True,True,land acquisition delays
+900073,Roads & Highways Project 900073,Ministry of Road Transport & Highways,Roads & Highways,169.35,157.05,148.33,99.4,Completed,-7.26,False,False,True,True,
+900074,Roads & Highways Project 900074,Ministry of Road Transport & Highways,Roads & Highways,534.83,528.05,504.37,98.8,On Track,-1.27,False,False,True,True,
+900075,Roads & Highways Project 900075,Ministry of Road Transport & Highways,Roads & Highways,61.24,61.56,28.96,41.5,Delayed,0.52,False,False,True,True,scope changes
+900076,Roads & Highways Project 900076,Ministry of Road Transport & Highways,Roads & Highways,408.58,409.81,346.06,87.6,On Track,0.3,False,False,True,True,
+900077,Roads & Highways Project 900077,Ministry of Road Transport & Highways,Roads & Highways,1846.37,1876.03,704.11,27.8,Delayed,1.61,False,False,True,True,contractual disputes
+900078,Roads & Highways Project 900078,Ministry of Road Transport & Highways,Roads & Highways,261.52,233.97,100.86,39.3,Delayed,-10.54,False,False,True,True,financing tie-up delays
+900079,Roads & Highways Project 900079,Ministry of Road Transport & Highways,Roads & Highways,34.8,38.03,11.75,27.8,Delayed,9.28,False,False,True,True,scope changes
+900080,Roads & Highways Project 900080,Ministry of Road Transport & Highways,Roads & Highways,510.86,542.03,235.51,47.5,Delayed,6.1,False,False,True,True,financing tie-up delays
+900081,Roads & Highways Project 900081,Ministry of Road Transport & Highways,Roads & Highways,227.41,248.62,221.29,95.6,On Track,9.33,False,False,True,True,
+900082,Roads & Highways Project 900082,Ministry of Road Transport & Highways,Roads & Highways,173.08,146.14,30.18,21.1,Critical,-15.56,False,False,True,True,geological surprises
+900083,Roads & Highways Project 900083,Ministry of Road Transport & Highways,Roads & Highways,899.82,856.56,385.67,53.3,Delayed,-4.81,False,False,True,True,forest/environment clearance delays
+900084,Roads & Highways Project 900084,Ministry of Road Transport & Highways,Roads & Highways,289.55,270.07,178.95,84.5,On Track,-6.73,False,False,True,True,
+900085,Roads & Highways Project 900085,Ministry of Road Transport & Highways,Roads & Highways,91.01,87.02,72.45,82.8,On Track,-4.38,False,False,True,True,
+900086,Roads & Highways Project 900086,Ministry of Road Transport & Highways,Roads & Highways,573.52,582.11,301.93,43.9,Delayed,1.5,False,False,True,True,land acquisition delays
+900087,Roads & Highways Project 900087,Ministry of Road Transport & Highways,Roads & Highways,1019.31,966.66,211.71,29.0,Delayed,-5.16,False,False,True,True,financing tie-up delays
+900088,Roads & Highways Project 900088,Ministry of Road Transport & Highways,Roads & Highways,267.36,253.67,237.41,90.0,On Track,-5.12,False,False,True,True,
+900089,Roads & Highways Project 900089,Ministry of Road Transport & Highways,Roads & Highways,1077.75,1164.86,972.23,93.7,On Track,8.08,False,False,True,True,
+900090,Roads & Highways Project 900090,Ministry of Road Transport & Highways,Roads & Highways,1590.13,1857.78,1176.78,60.2,Delayed,16.83,False,False,True,True,financing tie-up delays
+900091,Roads & Highways Project 900091,Ministry of Road Transport & Highways,Roads & Highways,369.55,369.55,142.75,38.3,Delayed,0.0,True,False,True,True,delays finalising detailed engineering
+900092,Roads & Highways Project 900092,Ministry of Road Transport & Highways,Roads & Highways,132.13,132.13,138.74,100.0,Completed,0.0,True,False,True,True,
+900093,Roads & Highways Project 900093,Ministry of Road Transport & Highways,Roads & Highways,881.11,910.29,239.16,27.3,Delayed,3.31,False,False,True,True,scope changes
+900094,Roads & Highways Project 900094,Ministry of Road Transport & Highways,Roads & Highways,114.22,114.73,110.43,99.5,Completed,0.45,False,False,True,True,
+900095,Roads & Highways Project 900095,Ministry of Road Transport & Highways,Roads & Highways,435.99,458.6,338.38,73.6,On Track,5.19,False,False,True,True,
+900096,Roads & Highways Project 900096,Ministry of Road Transport & Highways,Roads & Highways,359.88,367.29,292.9,82.4,On Track,2.06,False,False,True,True,
+900097,Roads & Highways Project 900097,Ministry of Road Transport & Highways,Roads & Highways,1264.8,1264.8,733.89,55.1,On Track,0.0,True,False,True,True,
+900098,Roads & Highways Project 900098,Ministry of Road Transport & Highways,Roads & Highways,6117.46,6717.6,5442.36,78.8,On Track,9.81,False,False,True,True,
+900099,Roads & Highways Project 900099,Ministry of Road Transport & Highways,Roads & Highways,354.43,374.61,163.54,37.0,Delayed,5.69,False,False,True,True,contractual disputes
+900100,Roads & Highways Project 900100,Ministry of Road Transport & Highways,Roads & Highways,242.67,238.6,75.55,47.3,Delayed,-1.68,False,False,True,True,forest/environment clearance delays
+900101,Roads & Highways Project 900101,Ministry of Road Transport & Highways,Roads & Highways,346.14,350.41,103.73,38.4,Delayed,1.23,False,False,True,True,delays finalising detailed engineering
+900102,Roads & Highways Project 900102,Ministry of Road Transport & Highways,Roads & Highways,1073.18,1068.34,288.55,29.5,Delayed,-0.45,False,False,True,True,forest/environment clearance delays
+900103,Roads & Highways Project 900103,Ministry of Road Transport & Highways,Roads & Highways,899.95,878.28,609.01,56.6,On Track,-2.41,False,False,True,True,
+900104,Roads & Highways Project 900104,Ministry of Road Transport & Highways,Roads & Highways,199.93,238.88,140.49,54.4,Delayed,19.48,False,False,True,True,forest/environment clearance delays
+900105,Roads & Highways Project 900105,Ministry of Road Transport & Highways,Roads & Highways,851.16,955.51,105.46,18.0,Critical,12.26,False,False,True,True,financing tie-up delays
+900106,Roads & Highways Project 900106,Ministry of Road Transport & Highways,Roads & Highways,389.65,383.53,284.39,74.1,On Track,-1.57,False,False,True,True,
+900107,Roads & Highways Project 900107,Ministry of Road Transport & Highways,Roads & Highways,523.96,588.52,598.48,100.0,Completed,12.32,False,False,True,True,
+900108,Roads & Highways Project 900108,Ministry of Road Transport & Highways,Roads & Highways,777.19,831.02,210.37,54.5,Delayed,6.93,False,False,True,True,delays finalising detailed engineering
+900109,Roads & Highways Project 900109,Ministry of Road Transport & Highways,Roads & Highways,525.59,561.44,312.73,52.4,Delayed,6.82,False,False,True,True,scope changes
+900110,Roads & Highways Project 900110,Ministry of Road Transport & Highways,Roads & Highways,1499.85,1560.57,1564.89,100.0,Completed,4.05,False,False,True,True,
+900111,Roads & Highways Project 900111,Ministry of Road Transport & Highways,Roads & Highways,271.35,277.19,202.05,84.2,On Track,2.15,False,False,True,True,
+900112,Roads & Highways Project 900112,Ministry of Road Transport & Highways,Roads & Highways,521.84,556.84,308.52,52.8,Delayed,6.71,False,False,True,True,law-and-order issues
+900113,Roads & Highways Project 900113,Ministry of Road Transport & Highways,Roads & Highways,602.94,606.43,262.64,40.5,Delayed,0.58,False,False,True,True,law-and-order issues
+900114,Roads & Highways Project 900114,Ministry of Road Transport & Highways,Roads & Highways,697.9,725.6,589.32,81.2,On Track,3.97,False,False,True,True,
+900115,Roads & Highways Project 900115,Ministry of Road Transport & Highways,Roads & Highways,475.38,515.12,385.24,88.0,On Track,8.36,False,False,True,True,
+900116,Roads & Highways Project 900116,Ministry of Road Transport & Highways,Roads & Highways,136.65,129.59,55.05,39.2,Delayed,-5.17,False,False,True,True,contractual disputes
+900117,Roads & Highways Project 900117,Ministry of Road Transport & Highways,Roads & Highways,52.5,52.54,17.84,38.0,Delayed,0.08,False,False,True,True,scope changes
+900118,Roads & Highways Project 900118,Ministry of Road Transport & Highways,Roads & Highways,541.63,535.0,347.32,57.1,On Track,-1.22,False,False,True,True,
+900119,Roads & Highways Project 900119,Ministry of Road Transport & Highways,Roads & Highways,656.32,681.36,131.77,29.3,Delayed,3.82,False,False,True,True,contractual disputes
+900120,Roads & Highways Project 900120,Ministry of Road Transport & Highways,Roads & Highways,386.3,473.45,324.87,69.8,Delayed,22.56,False,False,True,True,law-and-order issues
+900121,Roads & Highways Project 900121,Ministry of Road Transport & Highways,Roads & Highways,1295.4,1286.96,873.63,68.5,On Track,-0.65,False,False,True,True,
+900122,Roads & Highways Project 900122,Ministry of Road Transport & Highways,Roads & Highways,293.17,275.82,40.9,19.5,Critical,-5.92,False,False,True,True,financing tie-up delays
+900123,Roads & Highways Project 900123,Ministry of Road Transport & Highways,Roads & Highways,435.86,443.66,314.06,65.6,On Track,1.79,False,False,True,True,
+900124,Roads & Highways Project 900124,Ministry of Road Transport & Highways,Roads & Highways,272.84,268.01,207.44,69.6,On Track,-1.77,False,False,True,True,
+900125,Roads & Highways Project 900125,Ministry of Road Transport & Highways,Roads & Highways,1070.3,1199.17,942.16,84.9,On Track,12.04,False,False,True,True,
+900126,Roads & Highways Project 900126,Ministry of Road Transport & Highways,Roads & Highways,1131.32,1241.3,807.61,56.0,On Track,9.72,False,False,True,True,
+900127,Roads & Highways Project 900127,Ministry of Road Transport & Highways,Roads & Highways,252.85,267.56,280.94,98.6,On Track,5.82,False,False,True,True,
+900128,Roads & Highways Project 900128,Ministry of Road Transport & Highways,Roads & Highways,320.32,323.68,205.75,53.3,Delayed,1.05,False,False,True,True,contractual disputes
+900129,Roads & Highways Project 900129,Ministry of Road Transport & Highways,Roads & Highways,369.99,382.19,368.99,96.4,On Track,3.3,False,False,True,True,
+900130,Roads & Highways Project 900130,Ministry of Road Transport & Highways,Roads & Highways,651.34,695.53,442.51,68.1,On Track,6.78,False,False,True,True,
+900131,Roads & Highways Project 900131,Ministry of Road Transport & Highways,Roads & Highways,655.87,681.35,622.35,93.4,On Track,3.88,False,False,True,True,
+900132,Roads & Highways Project 900132,Ministry of Road Transport & Highways,Roads & Highways,90.14,85.74,62.53,88.2,On Track,-4.88,False,False,True,True,
+900133,Roads & Highways Project 900133,Ministry of Road Transport & Highways,Roads & Highways,315.05,299.35,29.32,20.4,Critical,-4.98,False,False,True,True,scope changes
+900134,Roads & Highways Project 900134,Ministry of Road Transport & Highways,Roads & Highways,170.33,170.33,58.11,21.9,Critical,0.0,True,False,True,True,tendering/ordering delays
+900135,Roads & Highways Project 900135,Ministry of Road Transport & Highways,Roads & Highways,866.7,866.7,735.49,93.3,On Track,0.0,True,False,True,True,
+900136,Roads & Highways Project 900136,Ministry of Road Transport & Highways,Roads & Highways,106.45,105.5,108.01,100.0,Completed,-0.89,False,False,True,True,
+900137,Roads & Highways Project 900137,Ministry of Road Transport & Highways,Roads & Highways,777.45,770.35,504.01,75.0,On Track,-0.91,False,False,True,True,
+900138,Roads & Highways Project 900138,Ministry of Road Transport & Highways,Roads & Highways,1153.31,1183.81,891.76,79.9,On Track,2.64,False,False,True,True,
+900139,Roads & Highways Project 900139,Ministry of Road Transport & Highways,Roads & Highways,579.13,622.74,195.76,31.2,Delayed,7.53,False,False,True,True,tendering/ordering delays
+900140,Roads & Highways Project 900140,Ministry of Road Transport & Highways,Roads & Highways,610.52,704.63,307.07,46.9,Delayed,15.42,False,False,True,True,financing tie-up delays
+900141,Roads & Highways Project 900141,Ministry of Road Transport & Highways,Roads & Highways,68.79,69.91,54.84,83.5,On Track,1.63,False,False,True,True,
+900142,Roads & Highways Project 900142,Ministry of Road Transport & Highways,Roads & Highways,702.73,721.65,319.55,44.7,Delayed,2.69,False,False,True,True,scope changes
+900143,Roads & Highways Project 900143,Ministry of Road Transport & Highways,Roads & Highways,164.92,178.6,64.48,41.1,Delayed,8.3,False,False,True,True,financing tie-up delays
+900144,Roads & Highways Project 900144,Ministry of Road Transport & Highways,Roads & Highways,357.43,351.0,166.93,41.2,Delayed,-1.8,False,False,True,True,scope changes
+900145,Roads & Highways Project 900145,Ministry of Road Transport & Highways,Roads & Highways,438.49,405.12,249.22,78.6,On Track,-7.61,False,False,True,True,
+900146,Roads & Highways Project 900146,Ministry of Road Transport & Highways,Roads & Highways,441.34,484.43,218.48,65.5,On Track,9.76,False,False,True,True,
+900147,Roads & Highways Project 900147,Ministry of Road Transport & Highways,Roads & Highways,608.37,663.31,13.27,3.2,Critical,9.03,False,False,True,True,land acquisition delays
+900148,Roads & Highways Project 900148,Ministry of Road Transport & Highways,Roads & Highways,722.02,704.68,553.52,69.0,On Track,-2.4,False,False,True,True,
+900149,Roads & Highways Project 900149,Ministry of Road Transport & Highways,Roads & Highways,176.53,173.91,20.76,12.9,Critical,-1.49,False,False,True,True,tendering/ordering delays
+900150,Roads & Highways Project 900150,Ministry of Road Transport & Highways,Roads & Highways,64.57,60.96,32.02,30.8,Delayed,-5.6,False,False,True,True,forest/environment clearance delays
+900151,Roads & Highways Project 900151,Ministry of Road Transport & Highways,Roads & Highways,288.73,278.96,292.91,97.9,On Track,-3.38,False,False,True,True,
+900152,Roads & Highways Project 900152,Ministry of Road Transport & Highways,Roads & Highways,317.25,320.35,51.8,19.2,Critical,0.98,False,False,True,True,land acquisition delays
+900153,Roads & Highways Project 900153,Ministry of Road Transport & Highways,Roads & Highways,241.92,244.26,112.75,55.2,On Track,0.97,False,False,True,True,
+900154,Roads & Highways Project 900154,Ministry of Road Transport & Highways,Roads & Highways,1157.13,1307.15,845.59,63.3,On Track,12.97,False,False,True,True,
+900155,Roads & Highways Project 900155,Ministry of Road Transport & Highways,Roads & Highways,454.88,522.15,481.31,99.5,Completed,14.79,False,False,True,True,
+900156,Roads & Highways Project 900156,Ministry of Road Transport & Highways,Roads & Highways,191.18,191.18,73.1,33.6,Delayed,0.0,True,False,True,True,contractual disputes
+900157,Roads & Highways Project 900157,Ministry of Road Transport & Highways,Roads & Highways,98.41,98.41,68.9,64.8,On Track,0.0,True,False,True,True,
+900158,Roads & Highways Project 900158,Ministry of Road Transport & Highways,Roads & Highways,347.24,371.91,390.51,100.0,Completed,7.11,False,False,True,True,
+900159,Roads & Highways Project 900159,Ministry of Road Transport & Highways,Roads & Highways,838.79,865.83,308.32,29.0,Delayed,3.22,False,False,True,True,geological surprises
+900160,Roads & Highways Project 900160,Ministry of Road Transport & Highways,Roads & Highways,630.89,687.44,511.86,78.0,On Track,8.96,False,False,True,True,
+900161,Roads & Highways Project 900161,Ministry of Road Transport & Highways,Roads & Highways,24.48,22.77,17.86,76.1,On Track,-6.98,False,False,True,True,
+900162,Roads & Highways Project 900162,Ministry of Road Transport & Highways,Roads & Highways,2838.8,3268.35,1525.46,34.9,Delayed,15.13,False,False,True,True,financing tie-up delays
+900163,Roads & Highways Project 900163,Ministry of Road Transport & Highways,Roads & Highways,315.81,383.38,263.43,65.0,Delayed,21.4,False,False,True,True,tendering/ordering delays
+900164,Roads & Highways Project 900164,Ministry of Road Transport & Highways,Roads & Highways,362.91,336.45,21.19,24.4,Critical,-7.29,False,False,True,True,geological surprises
+900165,Roads & Highways Project 900165,Ministry of Road Transport & Highways,Roads & Highways,294.79,299.79,31.81,9.7,Critical,1.7,False,False,True,True,law-and-order issues
+900166,Roads & Highways Project 900166,Ministry of Road Transport & Highways,Roads & Highways,704.71,680.22,132.62,24.5,Critical,-3.48,False,False,True,True,law-and-order issues
+900167,Roads & Highways Project 900167,Ministry of Road Transport & Highways,Roads & Highways,133.41,133.64,57.86,48.3,Delayed,0.17,False,False,True,True,delays finalising detailed engineering
+900168,Roads & Highways Project 900168,Ministry of Road Transport & Highways,Roads & Highways,471.16,477.31,38.95,3.8,Critical,1.31,False,False,True,True,delays finalising detailed engineering
+900169,Roads & Highways Project 900169,Ministry of Road Transport & Highways,Roads & Highways,783.66,681.94,182.91,37.0,Delayed,-12.98,False,False,True,True,scope changes
+900170,Roads & Highways Project 900170,Ministry of Road Transport & Highways,Roads & Highways,283.5,287.73,227.91,74.8,On Track,1.49,False,False,True,True,
+900171,Roads & Highways Project 900171,Ministry of Road Transport & Highways,Roads & Highways,462.38,512.56,423.96,70.6,On Track,10.85,False,False,True,True,
+900172,Roads & Highways Project 900172,Ministry of Road Transport & Highways,Roads & Highways,276.75,303.65,192.65,59.0,On Track,9.72,False,False,True,True,
+900173,Roads & Highways Project 900173,Ministry of Road Transport & Highways,Roads & Highways,499.64,499.64,415.7,77.0,On Track,0.0,True,False,True,True,
+900174,Roads & Highways Project 900174,Ministry of Road Transport & Highways,Roads & Highways,724.98,738.27,532.63,81.5,On Track,1.83,False,False,True,True,
+900175,Roads & Highways Project 900175,Ministry of Road Transport & Highways,Roads & Highways,404.96,440.75,174.76,49.7,Delayed,8.84,False,False,True,True,tendering/ordering delays
+900176,Roads & Highways Project 900176,Ministry of Road Transport & Highways,Roads & Highways,359.39,399.75,343.2,98.8,On Track,11.23,False,False,True,True,
+900177,Roads & Highways Project 900177,Ministry of Road Transport & Highways,Roads & Highways,42.44,46.91,38.76,79.6,On Track,10.54,False,False,True,True,
+900178,Roads & Highways Project 900178,Ministry of Road Transport & Highways,Roads & Highways,525.96,555.24,369.76,78.0,On Track,5.57,False,False,True,True,
+900179,Roads & Highways Project 900179,Ministry of Road Transport & Highways,Roads & Highways,264.23,300.87,201.06,67.2,On Track,13.86,False,False,True,True,
+900180,Roads & Highways Project 900180,Ministry of Road Transport & Highways,Roads & Highways,375.66,366.55,220.21,50.7,Delayed,-2.42,False,False,True,True,delays finalising detailed engineering
+900181,Roads & Highways Project 900181,Ministry of Road Transport & Highways,Roads & Highways,969.5,816.76,692.78,85.0,On Track,-15.75,False,False,True,True,
+900182,Roads & Highways Project 900182,Ministry of Road Transport & Highways,Roads & Highways,451.55,504.27,276.53,74.2,On Track,11.68,False,False,True,True,
+900183,Roads & Highways Project 900183,Ministry of Road Transport & Highways,Roads & Highways,627.34,571.28,386.89,57.5,On Track,-8.94,False,False,True,True,
+900184,Roads & Highways Project 900184,Ministry of Road Transport & Highways,Roads & Highways,567.14,566.66,497.09,68.6,On Track,-0.09,False,False,True,True,
+900185,Roads & Highways Project 900185,Ministry of Road Transport & Highways,Roads & Highways,130.04,132.87,85.02,69.6,On Track,2.18,False,False,True,True,
+900186,Roads & Highways Project 900186,Ministry of Road Transport & Highways,Roads & Highways,322.97,291.37,248.32,91.0,On Track,-9.78,False,False,True,True,
+900187,Roads & Highways Project 900187,Ministry of Road Transport & Highways,Roads & Highways,271.89,247.41,153.03,59.9,On Track,-9.01,False,False,True,True,
+900188,Roads & Highways Project 900188,Ministry of Road Transport & Highways,Roads & Highways,308.18,308.18,88.34,32.4,Delayed,0.0,True,False,True,True,contractual disputes
+900189,Roads & Highways Project 900189,Ministry of Road Transport & Highways,Roads & Highways,2966.32,2966.32,1346.68,30.2,Delayed,0.0,True,False,True,True,forest/environment clearance delays
+900190,Roads & Highways Project 900190,Ministry of Road Transport & Highways,Roads & Highways,442.2,491.72,167.61,33.1,Delayed,11.2,False,False,True,True,scope changes
+900191,Roads & Highways Project 900191,Ministry of Road Transport & Highways,Roads & Highways,206.98,204.44,146.28,62.5,On Track,-1.23,False,False,True,True,
+900192,Roads & Highways Project 900192,Ministry of Road Transport & Highways,Roads & Highways,382.14,364.85,173.73,59.2,On Track,-4.52,False,False,True,True,
+900193,Roads & Highways Project 900193,Ministry of Road Transport & Highways,Roads & Highways,219.88,242.57,131.63,50.2,Delayed,10.32,False,False,True,True,law-and-order issues
+900194,Roads & Highways Project 900194,Ministry of Road Transport & Highways,Roads & Highways,640.37,619.9,247.01,45.1,Delayed,-3.2,False,False,True,True,financing tie-up delays
+900195,Roads & Highways Project 900195,Ministry of Road Transport & Highways,Roads & Highways,210.37,235.18,198.89,90.8,On Track,11.79,False,False,True,True,
+900196,Roads & Highways Project 900196,Ministry of Road Transport & Highways,Roads & Highways,198.51,187.68,64.44,37.9,Delayed,-5.46,False,False,True,True,land acquisition delays
+900197,Roads & Highways Project 900197,Ministry of Road Transport & Highways,Roads & Highways,109.08,127.24,80.76,57.0,Delayed,16.65,False,False,True,True,law-and-order issues
+900198,Roads & Highways Project 900198,Ministry of Road Transport & Highways,Roads & Highways,381.39,318.49,177.74,47.7,Delayed,-16.49,False,False,True,True,forest/environment clearance delays
+900199,Roads & Highways Project 900199,Ministry of Road Transport & Highways,Roads & Highways,347.52,365.56,66.61,21.8,Critical,5.19,False,False,True,True,land acquisition delays
+900200,Roads & Highways Project 900200,Ministry of Road Transport & Highways,Roads & Highways,337.71,359.8,117.01,48.1,Delayed,6.54,False,False,True,True,geological surprises
+900201,Roads & Highways Project 900201,Ministry of Road Transport & Highways,Roads & Highways,447.8,460.98,64.87,30.9,Delayed,2.94,False,False,True,True,financing tie-up delays
+900202,Roads & Highways Project 900202,Ministry of Road Transport & Highways,Roads & Highways,699.42,788.76,179.57,24.6,Critical,12.77,False,False,True,True,tendering/ordering delays
+900203,Roads & Highways Project 900203,Ministry of Road Transport & Highways,Roads & Highways,368.56,346.67,187.64,61.3,On Track,-5.94,False,False,True,True,
+900204,Roads & Highways Project 900204,Ministry of Road Transport & Highways,Roads & Highways,206.3,212.67,162.21,79.3,On Track,3.09,False,False,True,True,
+900206,Education Project 900206,Ministry of Education,Education,217.62,197.75,203.97,100.0,Completed,-9.13,False,False,True,True,
+900207,Education Project 900207,Ministry of Education,Education,34.13,34.55,26.43,71.1,On Track,1.24,False,False,True,True,
+900208,Education Project 900208,Ministry of Education,Education,85.95,84.13,66.33,73.0,On Track,-2.12,False,False,True,True,
+900209,Education Project 900209,Ministry of Education,Education,611.26,656.51,510.56,75.6,On Track,7.4,False,False,True,True,
+900211,Civil Aviation Project 900211,Ministry of Civil Aviation,Civil Aviation,957.46,989.01,847.77,98.1,On Track,3.29,False,False,True,True,
+900212,Civil Aviation Project 900212,Ministry of Civil Aviation,Civil Aviation,1202.71,1413.7,351.81,34.2,Delayed,17.54,False,False,True,True,geological surprises
+900213,Civil Aviation Project 900213,Ministry of Civil Aviation,Civil Aviation,823.65,1031.22,652.44,53.7,Delayed,25.2,False,False,True,True,contractual disputes
+900214,Civil Aviation Project 900214,Ministry of Civil Aviation,Civil Aviation,459.51,627.04,83.64,13.8,Critical,36.46,False,False,True,True,tendering/ordering delays
+900216,"Ports, Shipping and Waterways Project 900216","Ministry of Ports, Shipping and Waterways","Ports, Shipping and Waterways",414.17,439.97,281.55,74.8,On Track,6.23,False,False,True,True,
+900217,"Ports, Shipping and Waterways Project 900217","Ministry of Ports, Shipping and Waterways","Ports, Shipping and Waterways",2965.75,3383.92,1880.6,73.0,On Track,14.1,False,False,True,True,
+900218,"Ports, Shipping and Waterways Project 900218","Ministry of Ports, Shipping and Waterways","Ports, Shipping and Waterways",497.39,497.11,9.94,13.9,Critical,-0.06,False,False,True,True,land acquisition delays
+900219,"Ports, Shipping and Waterways Project 900219","Ministry of Ports, Shipping and Waterways","Ports, Shipping and Waterways",849.67,902.1,370.29,43.2,Delayed,6.17,False,False,True,True,geological surprises
+900221,Petroleum & Natural Gas Project 900221,Ministry of Petroleum & Natural Gas,Petroleum & Natural Gas,1032.72,1171.74,474.68,39.7,Delayed,13.46,False,False,True,True,law-and-order issues
+900222,Petroleum & Natural Gas Project 900222,Ministry of Petroleum & Natural Gas,Petroleum & Natural Gas,598.59,692.81,351.16,50.4,Delayed,15.74,False,False,True,True,tendering/ordering delays
+900223,Petroleum & Natural Gas Project 900223,Ministry of Petroleum & Natural Gas,Petroleum & Natural Gas,1594.07,1594.07,1276.09,75.7,On Track,0.0,True,False,True,True,
+900224,Petroleum & Natural Gas Project 900224,Ministry of Petroleum & Natural Gas,Petroleum & Natural Gas,2463.64,2889.9,1755.92,64.4,Delayed,17.3,False,False,True,True,delays finalising detailed engineering
+900226,Coal Project 900226,Ministry of Coal,Coal,627.21,657.74,315.01,33.7,Delayed,4.87,False,False,True,True,scope changes
+900227,Coal Project 900227,Ministry of Coal,Coal,904.63,1097.22,794.11,72.3,Delayed,21.29,False,False,True,True,contractual disputes
+900228,Coal Project 900228,Ministry of Coal,Coal,562.02,677.73,705.36,93.6,Delayed,20.59,False,False,True,True,contractual disputes
+900229,Coal Project 900229,Ministry of Coal,Coal,320.69,320.69,224.09,67.5,On Track,0.0,True,False,True,True,
+900231,Steel Project 900231,Ministry of Steel,Steel,1811.28,2393.77,225.04,18.4,Critical,32.16,False,False,True,True,law-and-order issues
+900232,Steel Project 900232,Ministry of Steel,Steel,332.13,417.28,263.19,71.8,Delayed,25.64,False,False,True,True,land acquisition delays
+900233,Steel Project 900233,Ministry of Steel,Steel,271.9,354.8,348.51,99.8,Completed,30.49,False,False,True,True,
+900234,Steel Project 900234,Ministry of Steel,Steel,734.96,760.99,487.41,63.6,On Track,3.54,False,False,True,True,
+900236,Fertilizers Project 900236,Ministry of Chemicals & Fertilizers,Fertilizers,394.96,394.96,57.6,18.3,Critical,0.0,True,False,True,True,contractual disputes
+900237,Fertilizers Project 900237,Ministry of Chemicals & Fertilizers,Fertilizers,1371.19,1601.52,800.83,56.4,Delayed,16.8,False,False,True,True,financing tie-up delays
+900238,Fertilizers Project 900238,Ministry of Chemicals & Fertilizers,Fertilizers,176.81,226.4,53.27,12.3,Critical,28.05,False,False,True,True,scope changes
+900239,Fertilizers Project 900239,Ministry of Chemicals & Fertilizers,Fertilizers,438.81,513.12,312.78,60.5,Delayed,16.93,False,False,True,True,geological surprises
+900241,Rural Development Project 900241,Ministry of Rural Development,Rural Development,242.72,289.54,211.6,55.4,Delayed,19.29,False,False,True,True,tendering/ordering delays
+900242,Rural Development Project 900242,Ministry of Rural Development,Rural Development,292.47,355.81,288.99,79.2,Delayed,21.66,False,False,True,True,tendering/ordering delays
+900243,Rural Development Project 900243,Ministry of Rural Development,Rural Development,428.37,495.47,63.01,18.3,Critical,15.66,False,False,True,True,delays finalising detailed engineering
+900244,Rural Development Project 900244,Ministry of Rural Development,Rural Development,464.62,511.99,397.94,72.9,On Track,10.2,False,False,True,True,
+900246,Housing & Urban Affairs Project 900246,Ministry of Housing & Urban Affairs,Housing & Urban Affairs,289.58,348.0,122.58,25.2,Delayed,20.17,False,False,True,True,tendering/ordering delays
+900247,Housing & Urban Affairs Project 900247,Ministry of Housing & Urban Affairs,Housing & Urban Affairs,7542.54,7608.97,5466.79,69.2,On Track,0.88,False,False,True,True,
+900248,Housing & Urban Affairs Project 900248,Ministry of Housing & Urban Affairs,Housing & Urban Affairs,628.58,745.41,622.96,97.5,Delayed,18.59,False,False,True,True,delays finalising detailed engineering
+900249,Housing & Urban Affairs Project 900249,Ministry of Housing & Urban Affairs,Housing & Urban Affairs,537.7,596.37,496.41,81.9,On Track,10.91,False,False,True,True,
+900251,Atomic Energy Project 900251,Department of Atomic Energy,Atomic Energy,3400.82,3775.64,1958.44,43.2,Delayed,11.02,False,False,True,True,geological surprises
+900252,Atomic Energy Project 900252,Department of Atomic Energy,Atomic Energy,3069.09,3291.89,2169.72,51.7,Delayed,7.26,False,False,True,True,delays finalising detailed engineering
+900253,Atomic Energy Project 900253,Department of Atomic Energy,Atomic Energy,4050.35,4495.85,1570.98,41.3,Delayed,11.0,False,False,True,True,tendering/ordering delays
+900254,Atomic Energy Project 900254,Department of Atomic Energy,Atomic Energy,1486.76,1676.82,838.14,60.3,On Track,12.78,False,False,True,True,
+900256,Renewable Energy Project 900256,Ministry of New and Renewable Energy,Renewable Energy,304.89,338.79,168.09,60.8,On Track,11.12,False,False,True,True,
+900257,Renewable Energy Project 900257,Ministry of New and Renewable Energy,Renewable Energy,1635.03,1635.03,374.25,23.6,Critical,0.0,True,False,True,True,forest/environment clearance delays
+900258,Renewable Energy Project 900258,Ministry of New and Renewable Energy,Renewable Energy,82.1,115.73,41.73,42.3,Delayed,40.96,False,False,True,True,scope changes
+900259,Renewable Energy Project 900259,Ministry of New and Renewable Energy,Renewable Energy,792.72,977.53,737.85,72.1,Delayed,23.31,False,False,True,True,contractual disputes
+900261,Tourism Project 900261,Ministry of Tourism,Tourism,226.5,267.93,108.4,40.4,Delayed,18.29,False,False,True,True,land acquisition delays
+900262,Tourism Project 900262,Ministry of Tourism,Tourism,270.32,323.58,339.76,99.7,Completed,19.7,False,False,True,True,
+900263,Tourism Project 900263,Ministry of Tourism,Tourism,295.18,333.81,304.25,98.3,On Track,13.09,False,False,True,True,
+900264,Tourism Project 900264,Ministry of Tourism,Tourism,8.32,9.4,4.96,46.1,Delayed,13.01,False,False,True,True,contractual disputes
+900266,Agriculture & Farmers Welfare Project 900266,Ministry of Agriculture & Farmers Welfare,Agriculture & Farmers Welfare,157.75,196.56,58.18,19.5,Critical,24.6,False,False,True,True,land acquisition delays
+900267,Agriculture & Farmers Welfare Project 900267,Ministry of Agriculture & Farmers Welfare,Agriculture & Farmers Welfare,418.58,500.01,161.95,39.6,Delayed,19.45,False,False,True,True,land acquisition delays
+900268,Agriculture & Farmers Welfare Project 900268,Ministry of Agriculture & Farmers Welfare,Agriculture & Farmers Welfare,189.68,189.68,186.8,100.0,Completed,0.0,True,False,True,True,
+900269,Agriculture & Farmers Welfare Project 900269,Ministry of Agriculture & Farmers Welfare,Agriculture & Farmers Welfare,23.6,27.69,15.74,51.6,Delayed,17.32,False,False,True,True,financing tie-up delays
+701415,Polavaram Irrigation Project,Ministry of Jal Shakti,Water Resources,10151.0,55549.0,42000.0,72.0,Critical,447.23,False,False,True,False,scope changes
+706775,BharatNet,Ministry of Communications,Telecommunication,61109.0,188000.0,95000.0,65.0,Critical,207.65,False,False,True,False,tendering/ordering delays
+705237,Western Dedicated Freight Corridor,Ministry of Railways,Railways,51101.0,124005.0,118000.0,96.0,Critical,142.67,False,False,True,False,land acquisition delays
+705728,Mumbai-Ahmedabad High Speed Rail,Ministry of Railways,Railways,108000.0,108000.0,61000.0,48.0,Delayed,0.0,False,False,True,False,land acquisition delays
+701530,Ken-Betwa Linking Project,Ministry of Jal Shakti,Water Resources,44605.0,44605.0,6000.0,18.0,Critical,0.0,True,False,True,False,forest/environment clearance delays

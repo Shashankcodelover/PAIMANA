@@ -9,11 +9,8 @@ node_modules/
 frontend/dist/
 frontend/.env
 
-# Generated data & models (regenerate with the pipeline — see README.md)
+# Generated data & models (raw files & plots ignored, clean dataset & trained models tracked)
 data/projects_raw.csv
-data/projects_clean.csv
-ml/models/*.joblib
-ml/models/metadata.json
 ml/plots/*.png
 
 # OS / editor
