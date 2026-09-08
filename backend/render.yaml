@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: paimana-risk-watch
+    runtime: docker
+    dockerfilePath: ./backend/Dockerfile
+    dockerContext: .
+    plan: free
+    envVars:
+      - key: PORT
+        value: 8000
+    healthCheckPath: /api/health
+
+# Notes for the team (also in README.md):
+# - Free-tier Render services sleep after ~15 minutes idle and take 30-60s to wake up on the next
+#   request. Warm the link up a few minutes before any live demo by hitting /api/health once.
+# - This spins up ONE service that serves both the built frontend and the /api/* JSON routes from the
+#   same origin/port — no separate static site + separate API service needed.

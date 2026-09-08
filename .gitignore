@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node
+node_modules/
+frontend/dist/
+frontend/.env
+
+# Generated data & models (regenerate with the pipeline — see README.md)
+data/projects_raw.csv
+data/projects_clean.csv
+ml/models/*.joblib
+ml/models/metadata.json
+ml/plots/*.png
+
+# OS / editor
+.DS_Store
+.vscode/
+*.log
