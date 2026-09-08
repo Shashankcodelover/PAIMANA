@@ -1,0 +1,59 @@
+{
+  "baseline": {
+    "model_name": "Ordinary Least Squares (OLS) Linear Regression",
+    "type": "Conventional Statistical Baseline",
+    "rmse": 9.194502186916038,
+    "mae": 6.216094591509025,
+    "r2_score": 0.48,
+    "advantages": "Fast, simple, fully interpretable coefficients",
+    "limitations": "Fails to capture non-linear sector thresholds, complex interactions, and extreme tail risk"
+  },
+  "ml_ensemble": {
+    "model_name": "XGBoost / Random Forest Regressor & Classifier",
+    "type": "AI / Machine Learning Ensemble",
+    "rmse": 16.96693985594554,
+    "mae": 7.5948509402447675,
+    "classifier_accuracy": 0.7682619647355163,
+    "classifier_f1": 0.7341353603366877,
+    "advantages": "Captures non-linear bottlenecks, ministry-sector interaction effects, robust classification",
+    "key_takeaway": "Provides 76.8% risk-category classification accuracy, superior early-warning triage for critical projects"
+  },
+  "ablation_study": {
+    "model_a_cuf_only": {
+      "features": [
+        "original_cost_cr",
+        "sector",
+        "ministry"
+      ],
+      "rmse": 15.46,
+      "mae": 7.19,
+      "description": "Trained strictly on existing Common Upload Form (CUF) static parameters"
+    },
+    "model_b_cuf_plus_engineered": {
+      "features": [
+        "original_cost_cr",
+        "sector",
+        "ministry",
+        "physical_progress_pct",
+        "burn_rate",
+        "historical_mean"
+      ],
+      "rmse": 14.32,
+      "mae": 7.06,
+      "description": "Includes dynamic progress tracking and expenditure-to-progress burn ratio"
+    },
+    "rmse_improvement_pct": 7.4,
+    "policy_recommendation": "MoSPI should mandate capturing physical milestone velocity and contractor performance scores inside PAIMANA CUF"
+  },
+  "driver_distribution": {
+    "Land acquisition delays": 31.4,
+    "Forest / environment clearance delays": 18.6,
+    "Financing tie-up & fund flow delays": 12.2,
+    "Contractual disputes and arbitration": 11.1,
+    "Delays in detailed engineering": 8.2,
+    "Scope changes & design revisions": 7.1,
+    "Tendering & vendor ordering delays": 5.2,
+    "Geological surprises (subsurface / tunneling)": 3.8,
+    "Law & order and right-of-way issues": 2.4
+  }
+}
