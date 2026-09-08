@@ -24,12 +24,14 @@ export default function SectorBars({ sectors }) {
     return <div className="empty-state">No sector data available.</div>;
   }
 
-  const maxAbs = Math.max(10, ...sectors.map((s) => Math.abs(s.avg_cost_overrun_pct)));
+  const getOverrun = (s) => (s.avg_cost_overrun_pct ?? s.mean_cost_overrun_pct ?? 0);
+  const maxAbs = Math.max(10, ...sectors.map((s) => Math.abs(getOverrun(s))));
 
   return (
     <div className="sector-bars">
       {sectors.map((s) => {
-        const widthPct = Math.min(100, (Math.max(0, s.avg_cost_overrun_pct) / maxAbs) * 100);
+        const overrun = getOverrun(s);
+        const widthPct = Math.min(100, (Math.max(0, overrun) / maxAbs) * 100);
         return (
           <div className="sector-bar-row" key={s.sector}>
             <div className="sector-bar-name" title={s.sector}>
@@ -40,13 +42,13 @@ export default function SectorBars({ sectors }) {
                 className="sector-bar-fill"
                 style={{
                   width: `${widthPct}%`,
-                  background: interpolateColor(s.avg_cost_overrun_pct),
+                  background: interpolateColor(overrun),
                 }}
               />
             </div>
             <div className="sector-bar-value tabular">
-              {s.avg_cost_overrun_pct > 0 ? "+" : ""}
-              {s.avg_cost_overrun_pct.toFixed(1)}%
+              {overrun > 0 ? "+" : ""}
+              {overrun.toFixed(1)}%
             </div>
           </div>
         );

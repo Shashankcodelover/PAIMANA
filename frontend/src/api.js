@@ -116,6 +116,7 @@ export async function getBySector() {
       project_count: item.project_count,
       total_original_cost_cr: Math.round(item.total_original_cost_cr * 100) / 100,
       total_revised_cost_cr: Math.round(item.total_revised_cost_cr * 100) / 100,
+      avg_cost_overrun_pct: Math.round(avgOverrun * 100) / 100,
       mean_cost_overrun_pct: Math.round(avgOverrun * 100) / 100,
       mean_risk_score: Math.round(avgScore * 10) / 10,
     };
