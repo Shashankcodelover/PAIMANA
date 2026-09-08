@@ -1,0 +1,23 @@
+{
+  "name": "paimana-risk-watch",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI-powered early-warning system for Indian infrastructure projects",
+  "workspaces": [
+    "frontend"
+  ],
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "preview": "npm --prefix frontend run preview",
+    "install:all": "npm --prefix frontend install"
+  },
+  "keywords": [
+    "paimana",
+    "risk-watch",
+    "infrastructure",
+    "react",
+    "vite",
+    "fastapi"
+  ]
+}

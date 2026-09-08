@@ -3,7 +3,7 @@ import Hero from "./components/Hero.jsx";
 import SectorBars from "./components/SectorBars.jsx";
 import ProjectTable from "./components/ProjectTable.jsx";
 import DetailPanel from "./components/DetailPanel.jsx";
-import { getProjects, getOverview, getBySector } from "./api.js";
+import { getProjects, getOverview, getBySector, BASE_URL } from "./api.js";
 
 export default function App() {
   const [projects, setProjects] = useState([]);
@@ -44,7 +44,12 @@ export default function App() {
 
       {error && (
         <div className="empty-state" style={{ marginBottom: 32 }}>
-          Could not reach the API at the configured URL ({error}). Confirm the backend is running.
+          <strong>Could not reach the backend API ({error}).</strong>
+          <div style={{ marginTop: 8, fontSize: "0.9em", color: "var(--text-muted)" }}>
+            Target: <code>{BASE_URL || "(relative origin)"}</code>.
+            If running locally, ensure the backend is running at port 8000.
+            If deployed on Vercel, verify your backend service is running and set <code>VITE_API_URL</code> in Vercel environment settings.
+          </div>
         </div>
       )}
 

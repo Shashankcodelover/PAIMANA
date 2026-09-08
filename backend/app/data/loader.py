@@ -95,16 +95,12 @@ def load_projects(force_reload=False):
         return _cache["projects"]
 
     try:
-        from predictor import predict_risk
+        from predictor import predict_risk, predict_risk_batch
     except Exception as e:
         print(f"[loader] WARNING: could not import ml/predictor.py ({e}). "
               f"All rows will use the rule-based fallback.")
         predict_risk = None
-
-    def predict_fn(features):
-        if predict_risk is None:
-            raise RuntimeError("predictor unavailable")
-        return predict_risk(features)
+        predict_risk_batch = None
 
     if os.path.exists(CSV_PATH):
         df = pd.read_csv(CSV_PATH)
@@ -115,7 +111,55 @@ def load_projects(force_reload=False):
         records = generate_mock_projects()
         source = "mock_data.py"
 
-    projects = [_row_to_project_dict(r, predict_fn) for r in records]
+    predictions = None
+    if predict_risk_batch is not None:
+        try:
+            predictions = predict_risk_batch(records)
+        except Exception as e:
+            print(f"[loader] WARNING: predict_risk_batch() failed ({e}). Falling back to row-by-row prediction.")
+            predictions = None
+
+    projects = []
+    for i, r in enumerate(records):
+        base = {
+            "project_id": str(r["project_id"]),
+            "project_name": r["project_name"],
+            "ministry": r["ministry"],
+            "sector": r["sector"],
+            "original_cost_cr": float(r["original_cost_cr"]),
+            "revised_cost_cr": float(r["revised_cost_cr"]),
+            "expenditure_cr": float(r["expenditure_cr"]),
+            "physical_progress_pct": float(r["physical_progress_pct"]),
+            "status": r["status"],
+            "cost_overrun_pct": float(r["cost_overrun_pct"]),
+            "revised_cost_missing": bool(r.get("revised_cost_missing", False)),
+            "possible_outlier": bool(r.get("possible_outlier", False)),
+            "date_is_synthetic": bool(r.get("date_is_synthetic", False)),
+        }
+        if predictions and i < len(predictions):
+            pred = predictions[i]
+        elif predict_risk is not None:
+            try:
+                pred = predict_risk({
+                    "original_cost_cr": base["original_cost_cr"],
+                    "sector": base["sector"],
+                    "ministry": base["ministry"],
+                    "physical_progress_pct": base["physical_progress_pct"],
+                })
+            except Exception:
+                pred = _rule_based_fallback(base)
+        else:
+            pred = _rule_based_fallback(base)
+
+        base.update({
+            "predicted_cost_overrun_pct": pred["predicted_cost_overrun_pct"],
+            "predicted_time_overrun_days": pred["predicted_time_overrun_days"],
+            "risk_score": pred["risk_score"],
+            "risk_category": pred["risk_category"],
+            "top_risk_factors": pred["top_risk_factors"],
+        })
+        projects.append(base)
+
     print(f"[loader] Loaded {len(projects)} projects from {source}. Predictions cached at startup.")
     _cache["projects"] = projects
     return projects

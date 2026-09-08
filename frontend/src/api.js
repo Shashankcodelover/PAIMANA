@@ -1,4 +1,5 @@
-const BASE_URL = import.meta.env.VITE_API_URL || "http://localhost:8000";
+const rawUrl = (import.meta.env.VITE_API_URL || "").trim();
+export const BASE_URL = rawUrl ? rawUrl.replace(/\/+$/, "") : (import.meta.env.DEV ? "http://localhost:8000" : "");
 
 async function request(path, options) {
   const res = await fetch(`${BASE_URL}${path}`, {
