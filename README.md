@@ -1,5 +1,10 @@
 # PAIMANA Risk Watch
 
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue)](https://github.com/Shashankcodelover/PAIMANA)
+[![Python](https://img.shields.io/badge/Python-3.9+-green)](https://www.python.org/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.115-009688)](https://fastapi.tiangolo.com/)
+[![React](https://img.shields.io/badge/React-18.3-61DAFB)](https://react.dev/)
+
 An AI-powered early-warning system that predicts cost and time overrun risk for Indian
 central-government infrastructure projects, built on MoSPI's PAIMANA project-monitoring data.
 Built as a one-day hackathon MVP for Smart India Hackathon, PS 26103.
