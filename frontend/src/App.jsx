@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+﻿import { useEffect, useState } from "react";
 import Hero from "./components/Hero.jsx";
 import SectorBars from "./components/SectorBars.jsx";
 import ProjectTable from "./components/ProjectTable.jsx";
@@ -35,28 +35,29 @@ export default function App() {
   return (
     <div className="app">
       <div className="masthead">
-        <h1>PAIMANA Risk Watch</h1>
-        <div className="tagline">
-          Early-warning cost and time overrun risk for central-government infrastructure projects,
-          built on MoSPI PAIMANA project-monitoring data.
+        <div>
+          <h1>PAIMANA Risk Watch</h1>
+          <div className="tagline">
+            AI-powered early-warning system for Indian infrastructure projects
+          </div>
         </div>
       </div>
 
       {error && (
         <div className="empty-state" style={{ marginBottom: 32 }}>
-          Could not reach the API at the configured URL ({error}). Confirm the backend is running.
+          Could not reach the API: {error}
         </div>
       )}
 
       <Hero overview={overview} />
 
       <section>
-        <h2 className="section-heading">Risk by sector</h2>
+        <h2 className="section-heading">📊 Risk by Sector</h2>
         <SectorBars sectors={sectors} />
       </section>
 
       <section>
-        <h2 className="section-heading">Projects</h2>
+        <h2 className="section-heading">🏗️ Infrastructure Projects</h2>
         <ProjectTable projects={projects} onSelect={setSelectedId} />
       </section>
 
